@@ -7,13 +7,13 @@ Use Node.js `require` in Googlescript.
 Paste at the top of your script (requires [new runtime](https://developers.google.com/apps-script/guides/v8-runtime)):
 
 ```js
-eval(UrlFetchApp.fetch("https://unpkg.com/gs-require@1.0.0").getContentText());
+eval(UrlFetchApp.fetch("https://unpkg.com/gs-require@1.0.1").getContentText());
 ```
 
 ## Usage
 
 ```js
-eval(UrlFetchApp.fetch("https://unpkg.com/gs-require@1.0.0").getContentText());
+eval(UrlFetchApp.fetch("https://unpkg.com/gs-require@1.0.1").getContentText());
 
 const _ = require("lodash");
 
